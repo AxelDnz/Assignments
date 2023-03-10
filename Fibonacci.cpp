@@ -1,6 +1,6 @@
 #include <iostream>
 
-// AUTHOR: AKSEL DENIZ AKGUL 220201016
+// AUTHOR: AKSEL DENIZ AKGUL
 
 void Fibonacci(int N)
 {
