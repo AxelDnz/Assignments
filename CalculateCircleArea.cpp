@@ -1,12 +1,12 @@
 #include <iostream>
-#include <cmath>									 // cmath library is included to call function pow()
+#include <cmath>					// cmath library is included to call function pow()
 
 //AUTHOR: AKSEL DENIZ AKGUL
 
 
-void CalculateCircleAreaVer_1()						 // In this function, std::cin and std::cout is used.
+void CalculateCircleAreaVer_1()				// In this function, std::cin and std::cout is used.
 {
-	const double pi{ 3.14 };                         // An unchangable, constant value is initialized to variable "pi"
+	const double pi{ 3.14 };                        // An unchangable, constant value is initialized to variable "pi"
 	double radius{};
 
 	std::cout << "Please enter radius length: ";
@@ -17,7 +17,7 @@ void CalculateCircleAreaVer_1()						 // In this function, std::cin and std::cou
 	std::cout << "Circle area with radius " << radius << " is " << Area << " unit square." << std::endl;
 }
 
-void CalculateCircleAreaVer_2()						// In this function, printf and scanf_s is used.
+void CalculateCircleAreaVer_2()				// In this function, printf and scanf_s is used.
 {
 	const double pi{ 3.14 };
 	double radius{};
