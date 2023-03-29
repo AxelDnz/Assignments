@@ -18,7 +18,7 @@ int main()
 	double y{};
 	std::cin >> y;
 
-	std::cout << "The output falue of function Q is: " << FunctionQ(x, y) << '\n';
+	std::cout << "The output value of function Q is: " << FunctionQ(x, y) << '\n';
 
 	return 0;
 }
